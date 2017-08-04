@@ -1,0 +1,83 @@
+/*
+This file is liecensed to NSF International
+Each line should be prefixed with 
+*/
+/* 
+    Created on : 5 Apr, 2017, 2:16:41 PM
+    Author     : nsf
+*/
+body {
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#external-events {
+    float: left;
+    width: 150px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    text-align: left;
+}
+
+#external-events h4 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+#external-events .fc-event {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#external-events p {
+    margin: 1.5em 0;
+    font-size: 11px;
+    color: #666;
+}
+.col-lg-3 {
+    width: 14% !important;
+}
+.col-lg-9 {
+    width: 86% !important;
+}
+#external-events p input {
+    margin: 0;
+    vertical-align: middle;
+}
+
+#calendar {
+    max-width: 1053px !important;
+}
+#loading {
+    display: none;
+   }
+#script-warning {
+    display: none;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+body {
+    padding-top: 10px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

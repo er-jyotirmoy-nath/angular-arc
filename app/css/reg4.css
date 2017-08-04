@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Jan, 2017, 2:29:04 PM
+    Author     : nsf
+*/
+
+ .btn-primary {
+                color: #fff;
+                background-color: #0275d8 !important;
+                border-color: #0275d8 !important;
+            }
+            .panel-default {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-primary {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-info {
+                border-color: #ddd;
+                min-height: 440px;
+                border-radius: 0px !important;
+            }
+
+            .panel-danger {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-warning {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .fade {
+                opacity: 0;
+                -webkit-transition: opacity 1s linear;
+                transition: opacity 1s linear;
+            }
+
+            .list-panel {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                padding: 10px 10px 0 0;
+            }
+            /* Toggle Styles */
+            .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+               
+                background-color: #003b79 !important;
+                border-color: #f1f1f1 !important;
+            }
+
+            body{
+                font-family: 'Noto Sans', sans-serif;
+            }
+              .cellred
+        {
+        background-color:red;
+        color:white;
+        font-family:sans-serif;
+        font-weight:700;
+        }
+
+        .cellamber
+        {
+        background-color:#FFC200;
+        color:white;
+        font-family:sans-serif;
+        font-weight:700;
+        }
+
+        .cellgreen
+        {
+        background-color:green;
+        color:white;
+        font-family:sans-serif;
+        font-weight:700;
+        }
+        .panel-heading{
+            color: #ffffff !important;
+            background-color: #3b73af !important;
+            border-color: #3b73af !important;
+                padding: 5px !important;
+                    font-size: 12px !important;
+                    font-weight: bold !important;
+                    line-height: 1.666666666667 !important;
+                    font-family: Arial,sans-serif !important ;
+                height:25px;
+                border-radius: 0px !important;
+        }
+        .panel-info{
+            border-color: #3b73af !important;
+        }
+        .panel-title{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        td{
+            margin: 0px;
+            padding: 0px;
+        }
+        tr{
+            margin: 0px;
+            padding: 0px;
+        }

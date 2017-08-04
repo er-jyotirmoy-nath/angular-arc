@@ -1,1 +1,144 @@
-<h1>Hello World</h1>
+<h1>{{title}}</h1>
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-default" style="min-height:auto !important;border-color: #3f51b5;">
+            <div class="panel-heading" style="color: #fff;background-color: #3f51b5;border-color: #ddd;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-hand-pointer-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="sac">{{dashcount.section1}}</div>
+                        <div>Submit WRAS Approval Enquiry</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#sac_tab" style="color:#3f51b5;">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-green" style="border-color: #e91e63;">
+            <div class="panel-heading" style="border-color: #e91e63;color: white;background-color: #e91e63;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-flask fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="sot">...</div>
+                        <div>Submit BS6920 Testing Enquiry </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#sot_tab" style="color:#e91e63;">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-yellow" style="border-color: #FF9800;">
+            <div class="panel-heading" style="border-color: #FF9800;color: white;background-color: #FF9800;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-info-circle fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="ar">...</div>
+                        <div> View Existing Enquiring</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#ar_tab">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-default" style="min-height:auto !important;border-color: #4caf50;">
+            <div class="panel-heading" style="color: #fff;background-color: #4caf50;border-color: #ddd;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-hourglass-half fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="sac">...</div>
+                        <div>Incomplete Applications</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#sac_tab" style="color:#3f51b5;">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-green" style="border-color: #795548;">
+            <div class="panel-heading" style="border-color: #795548;color: white;background-color: #795548;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-check-circle-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="sot">...</div>
+                        <div>Submitted Applications</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#sot_tab" style="color:#e91e63;">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="panel panel-yellow" style="border-color: #ff5722;">
+            <div class="panel-heading" style="border-color: #ff5722;color: white;background-color: #ff5722;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-certificate fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge" id="ar">...</div>
+                        <div>Successful Approvals</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#ar_tab">
+                <div class="panel-footer">
+                    <span class="pull-left">Click Here</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+<h4>New Links</h4>  
+<ul class="list-group col-md-6">
+    <li class="list-group-item" ng-repeat="update in events"><a ui-sref="news_updates({news_id:update.TITLE})"  class="btn btn-info" >{{update.TITLE}}</a></li>
+</ul>

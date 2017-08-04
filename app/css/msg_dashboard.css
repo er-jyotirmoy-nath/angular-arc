@@ -1,0 +1,103 @@
+/*
+*/
+/* 
+    Created on : 7 Feb, 2017, 1:46:01 PM
+    Author     : nsf
+*/
+
+.panel-default {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-primary {
+                border: 0 !important;
+                position: relative !important;
+            }
+
+            .panel-info {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-danger {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .panel-warning {
+                border-color: #ddd;
+                min-height: 440px;
+            }
+
+            .fade {
+                opacity: 0;
+                -webkit-transition: opacity 1s linear;
+                transition: opacity 1s linear;
+            }
+
+            .list-panel {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                padding: 10px 10px 0 0;
+            }
+            /* Toggle Styles */
+            .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+                z-index: 20;
+                color: #fff;
+                background-color: #003b79 !important;
+                border-color: #f1f1f1 !important;
+                position: relative;
+                display: block;
+                padding: 10px 15px;
+                margin-bottom: -1px;
+            }
+            body{
+                font-family: 'Noto Sans', sans-serif;
+            }
+            .panel-primary>.panel-heading {
+                color: #fff !important;
+                background-color: #003b79 !important;
+                border-color: #003b79 !important;
+
+                -moz-border-radius-topleft: 3px !important;
+                border-top-left-radius: 3px !important;
+                -moz-border-radius-topright: 3px !important;
+                border-top-right-radius: 3px !important;
+                border: 1px solid #ddd !important;
+                border-bottom: 0 !important;
+                margin: 0 !important;
+                min-height: 24px !important;
+                padding: 0 !important;
+                position: relative !important;
+            }
+            .panel-body{
+                border-bottom-left-radius: 3px !important;
+                -moz-border-radius-bottomright: 3px !important;
+                border-bottom-right-radius: 3px !important;
+                border: 1px solid #ddd !important;
+                border-top: 0 !important;
+                background: #fff !important;
+            }
+            .panel-title{
+                background: transparent !important;
+                font-size: 12px !important;
+                font-weight: bold !important;
+                line-height: 1.666666666667 !important;
+                margin: 0 !important;
+                padding: 4px 64px 4px 10px !important;
+            }
+            p{
+                padding: 0px !important;
+            }
+            .select-class {
+                height: 34px;
+            }
+             .panel {
+     
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 8px 0px 40px rgba(0,0,0, .2);
+  }

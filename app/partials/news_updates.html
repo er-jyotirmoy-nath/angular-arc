@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+The code on this file is licensed to NSF International
+All rights reserved
+-->
+
+
+<div class="panel panel-primary" style="margin: 5px;padding: 5px;">
+    <div class="panel-heading" >
+        <span style="margin: 5px;padding: 5px;">
+            <b>{{news.TITLE}}</b></span>
+        <span class="pull-right" style="margin: 5px;">
+            <b > {{news.TIMESTAMP2}}</b>
+        </span>
+    </div>
+    <div class="panel-body" style="font-family: \'Roboto\', sans-serif;text-align: justify;text-justify: inter-word;">
+        <div  style="overflow-y: scroll; max-height:800px;">
+            <pre ng-bind-html="news.COMMENT_"></pre>
+        </div>
+    </div> 
+</div>
+<hr>
